@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Open+Sans:wght@300&display=swap");
 * {
@@ -14,19 +13,21 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-.content .title {
+.title {
   width: 826px;
   padding-right: 152px;
   padding-top: 86px;
+  margin: 0 auto;
 }
 
-.content h2 {
+.title h2 {
   text-align: right;
   color: #b0b0b0;
   font-size: 22px;
@@ -171,8 +172,8 @@
 
 .register-form p {
   color: #b9b9b9;
-  font-size: 1em;
-  line-height: 16px;
+  font-size: 1.125em;
+  line-height: 18px;
   margin: 0 0 40px 0;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
@@ -300,9 +301,17 @@
   .content {
     width: 100%;
     padding: 20px;
+    margin: 0 auto;
   }
   .content h2 {
     text-align: center;
+    width: auto;
+  }
+  .title {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 86px 20px 0 20px;
   }
   .head1 {
     height: 300px;
@@ -348,12 +357,12 @@
 
 @media screen and (max-width: 375px) {
   .content h2 {
+    font-size: 1em;
     text-align: center;
-    padding: 0 20px;
-    margin: 5px;
+    margin: 10px;
   }
   .navbar h1 {
-    font-size: 1.25em;
+    font-size: 1em;
   }
 }
 /*# sourceMappingURL=style.css.map */
