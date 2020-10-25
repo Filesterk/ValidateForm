@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap');
  * {
 		box-sizing: border-box;
@@ -208,14 +208,14 @@
 	
 	.validateBtn {
 		@include validate-size();
-		background: linear-gradient(45deg, rgba(2,79,112,1) 0%, rgba(67,165,208,1) 100%);
+		background: linear-gradient(45deg, rgba(5,83,116,1) 0%, rgba(77,179,223,1) 100%);
 		border: 2px solid #2882a8;
 		margin-right: 0;
 	}
  
 	.validateBtn1 {
 		@include validate-size();
-		background: linear-gradient(45deg, rgba(174,123,0,1) 0%, rgba(238,168,0,1) 100%);
+		background: linear-gradient(45deg, rgba(172,122,0,1) 0%, rgba(251,177,0,1) 100%);
 		border: 2px solid #cb8f00;
 		display: block; 
 		margin-right: 0;

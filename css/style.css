@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap");
 * {
   -webkit-box-sizing: border-box;
@@ -212,7 +212,7 @@
   -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
           box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  background: linear-gradient(45deg, #024f70 0%, #43a5d0 100%);
+  background: linear-gradient(45deg, #055374 0%, #4db3df 100%);
   border: 2px solid #2882a8;
   margin-right: 0;
 }
@@ -235,7 +235,7 @@
   -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
           box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  background: linear-gradient(45deg, #ae7b00 0%, #eea800 100%);
+  background: linear-gradient(45deg, #ac7a00 0%, #fbb100 100%);
   border: 2px solid #cb8f00;
   display: block;
   margin-right: 0;
